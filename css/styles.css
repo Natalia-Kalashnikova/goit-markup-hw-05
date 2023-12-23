@@ -811,6 +811,7 @@ ul {
 }
 
 .form-label.checkbox {
+  margin-top: 16px;
   margin-bottom: 24px;
 }
 
