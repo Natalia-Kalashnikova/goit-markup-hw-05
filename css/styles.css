@@ -648,8 +648,8 @@ ul {
   background-color: #fcfcfc;
   border-radius: 4px;
   padding: 72px 24px 24px;
-  box-shadow: зі значенням 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
 
   position: absolute;
 
@@ -668,6 +668,9 @@ ul {
   display: flex;
   align-items: center;
   justify-content: center;
+
+  padding: 0;
+  cursor: pointer;
 
   min-width: 24px;
   height: 24px;
@@ -694,6 +697,7 @@ ul {
 .modal-btn:hover,
 .modal-btn:focus {
   background-color: #404bbf;
+  border: 0;
 }
 
 .modal-caption {
@@ -731,6 +735,7 @@ ul {
 
 .input-field {
   position: relative;
+  margin-bottom: 16px;
 }
 
 .form-input {
