@@ -717,13 +717,21 @@ ul {
   outline: none;
 }
 
-.modal-form .form-field:not(:last-of-type) {
+.form-field {
+  margin-bottom: 8px;
+}
+
+.modal-form .form-field:nth-child(4) {
+  margin-bottom: 16px;
+}
+
+/* .modal-form .form-field:not(:last-of-type) {
   margin-bottom: 8px;
 }
 
 .modal-form .form-field:last-of-type {
   margin-bottom: 16px;
-}
+} */
 
 .modal-form .form-label {
   display: block;
