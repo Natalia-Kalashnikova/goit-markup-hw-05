@@ -710,7 +710,6 @@ ul {
 .modal-form {
 }
 .form-field {
-  margin-bottom: 16px;
 }
 
 .form-field svg {
@@ -718,8 +717,12 @@ ul {
   outline: none;
 }
 
-.modal-form .form-field:not(:last-child) {
+.modal-form .form-field:not(:last-of-type) {
   margin-bottom: 8px;
+}
+
+.modal-form .form-field:last-of-type {
+  margin-bottom: 16px;
 }
 
 .modal-form .form-label {
@@ -735,7 +738,7 @@ ul {
 
 .input-field {
   position: relative;
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 
 .form-input {
@@ -791,7 +794,6 @@ ul {
 
 /* Checkbox */
 .agreement {
-  margin-bottom: 24px;
   position: relative;
   display: block;
   align-items: center;
@@ -806,6 +808,10 @@ ul {
 
 .form-checkbox {
   margin-right: 8px;
+}
+
+.form-label.checkbox {
+  margin-bottom: 24px;
 }
 
 .checkbox-icon {
