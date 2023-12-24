@@ -609,7 +609,6 @@ ul {
 }
 .subscribe-form-icon {
   fill: #fff;
-  margin-left: 16px;
 }
 
 .subscribe-form-btn:hover,
@@ -725,14 +724,6 @@ ul {
   margin-bottom: 16px;
 }
 
-/* .modal-form .form-field:not(:last-of-type) {
-  margin-bottom: 8px;
-}
-
-.modal-form .form-field:last-of-type {
-  margin-bottom: 16px;
-} */
-
 .modal-form .form-label {
   display: block;
   margin-bottom: 4px;
@@ -806,7 +797,6 @@ ul {
   display: block;
   align-items: center;
 
-  margin-top: 16px;
   margin-bottom: 24px;
 
   font-size: 12px;
@@ -843,6 +833,10 @@ ul {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.form-label.checkbox {
+  margin-bottom: 0;
 }
 
 .checkbox-icon-check {
